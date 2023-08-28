@@ -15,11 +15,13 @@ vaeimage.img2vaepng(input_file = "test_images/Example00006.jpg", output_file = "
 vaeimage.vaepng2img(input_file = "Example00006_VAE.png", output_file = "Example00006_VAE_decoded.jpg")
 
 ```
-![vae-png-example](https://github.com/Norod/vae-png/assets/3617152/f63378fd-c13e-4053-87a9-2007ef2b53b2)
+
+![vae-png-example](https://github.com/Norod/vae-png/assets/3617152/c72fd58f-45df-4b79-aa7e-2f85a1c2b435)
 
 ### Added exif data
 
 Note that there are two fields added to the png's exif data.
 In order to re-expand the 4 X 8 bit per channel PNG data back to 4 X 32 bit per channel latent data, the original Gobal Minimum and Maximum values from the 32bit latents are stored.
 
-![MinMax_Exif](https://github.com/Norod/vae-png/assets/3617152/c654cc72-beeb-44ed-8168-6df47b2724bb)
+
+![MinMax_Exif](https://github.com/Norod/vae-png/assets/3617152/43c00788-7652-4c90-b12f-8dd8758c5e9f)
